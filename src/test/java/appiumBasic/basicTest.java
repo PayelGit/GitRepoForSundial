@@ -19,5 +19,7 @@ public class basicTest {
 		
 		AppiumDriver driver = new AppiumDriver(new URL("http://127.0.0.1:4723"), opt);
 		driver.quit();
+		System.out.println("done!!!!");
+		
 	}
 }
